@@ -15,6 +15,7 @@
 		E1BA62371A3F1104003E3C86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BA62361A3F1104003E3C86 /* Images.xcassets */; };
 		E1BA623A1A3F1104003E3C86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BA62381A3F1104003E3C86 /* LaunchScreen.xib */; };
 		E1BA62461A3F1104003E3C86 /* iOS_iBeaconSample03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA62451A3F1104003E3C86 /* iOS_iBeaconSample03Tests.m */; };
+		E1BA62501A3F166B003E3C86 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E1BA624F1A3F166B003E3C86 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E1BA623F1A3F1104003E3C86 /* iOS_iBeaconSample03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_iBeaconSample03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BA62441A3F1104003E3C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BA62451A3F1104003E3C86 /* iOS_iBeaconSample03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_iBeaconSample03Tests.m; sourceTree = "<group>"; };
+		E1BA624F1A3F166B003E3C86 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		E1BA621A1A3F1104003E3C86 = {
 			isa = PBXGroup;
 			children = (
+				E1BA624F1A3F166B003E3C86 /* readme.txt */,
 				E1BA62251A3F1104003E3C86 /* iOS_iBeaconSample03 */,
 				E1BA62421A3F1104003E3C86 /* iOS_iBeaconSample03Tests */,
 				E1BA62241A3F1104003E3C86 /* Products */,
@@ -204,6 +207,7 @@
 			files = (
 				E1BA62351A3F1104003E3C86 /* Main.storyboard in Resources */,
 				E1BA623A1A3F1104003E3C86 /* LaunchScreen.xib in Resources */,
+				E1BA62501A3F166B003E3C86 /* readme.txt in Resources */,
 				E1BA62371A3F1104003E3C86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 				E1BA624B1A3F1104003E3C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BA624C1A3F1104003E3C86 /* Build configuration list for PBXNativeTarget "iOS_iBeaconSample03Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E1BA624E1A3F1104003E3C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
